@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <br>
+  
+    <br> <br>
+
+    <div class="formulario">
+        <form action="formulário" class="formulario">
+
+            <div class="titulo">
+                <h2>Vaga para Desenvolvimento</h2>
+            </div> <br> 
+
+            <div class="dados">
+                <label for="" id="label">Nome*:</label>
+                <input type="text" name="nome" id="input" required> <br> <br>
+                <label for="" id="label">Sobrenome*:</label>
+                <input type="text" name="sobrenome" id="input"  required>
+                <br> <br>
+                <label for="" id="label">E-mail*:</label>
+                <input type="text" name="email" id="input"  required>
+
+            </div>
+
+            <br>
+
+            <div class="select">
+                <label for="Área">Selecione sua Área especifica:</label> <br> <br>
+                <select name="Área especifica" aria-placeholder="Qual a sua Área especifica">
+                    <option value="#" disabled selected>Escolha uma opção</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-End">Back-End</option>
+                    <option value="Full-Stack">Full-Stack</option>
+                    <option value="Gerência de Projetos">Gerência de Projetos</option>
+                    <option value="Teste">Teste</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="checkbox">
+                <label for="">Nível de experiência:</label>
+                <br>
+
+                <label for="">Estágiario</label>
+                <input type="checkbox" name="estágiario" id="estágiario">
+                <label for="">Junior</label>
+                <input type="checkbox" name="junior" id="junior">
+                <label for="">Pleno</label>
+                <input type="checkbox" name="pleno" id="pleno">
+                <label for="">Sênior</label>
+                <input type="checkbox" name="senior" id="senior">
+            </div>
+            <br>
+            <div class="textarea">
+                <label for="">Faça uma breve apresentação de você:</label> <br>
+                <textarea name="apresentação" id="apresentação"></textarea>
+            </div>
+            <br>
+            <div class="botao">
+                <button value="#">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
